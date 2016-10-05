@@ -802,7 +802,6 @@ section * {
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: 50% 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -904,6 +903,7 @@ section * {
   z-index: 2;
 }
 .header-8 .navbar .navbar-toggle {
+  background-image: url("../../assets/img/menu.png");
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -938,11 +938,15 @@ section * {
   color: #f4f5f9;
 }
 .header-8-sub .background {
-  background-position: 50% 0;
-  opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+  background-image: url("../../assets/img/fondo_banner.svg");
+  background-size: 300px 180px;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: .05;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .header-8-sub img {
   display: block;
