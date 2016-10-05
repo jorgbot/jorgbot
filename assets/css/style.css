@@ -1,10 +1,10 @@
 .dropdown-arrow-inverse {
-  border-bottom-color: #7f8c8d !important;
-  border-top-color: #7f8c8d !important;
+  border-bottom-color: #252c41 !important;
+  border-top-color: #252c41 !important;
 }
 /* styles from flat-ui-free2.0.0-fix.less files */
 body {
-  color: #7f8c8d;
+  color: #252c41;
   font-family: "brandon-grotesque", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.231;
@@ -123,7 +123,7 @@ blockquote small {
   font-size: 18.004px;
   line-height: 1.722169;
   font-style: italic;
-  color: #7f8c8d;
+  color: #252c41;
 }
 blockquote small:before {
   content: "";
@@ -264,7 +264,7 @@ footer {
   background-color: #c0392b;
 }
 .bg-clouds {
-  background-color: #ecf0f1;
+  background-color: #f4f5f9;
 }
 .bg-silver {
   background-color: #bdc3c7;
@@ -324,7 +324,7 @@ footer {
   border-color: #bdc3c7;
 }
 .bordered.bg-concrete {
-  border-color: #7f8c8d;
+  border-color: #252c41;
 }
 html,
 body {
@@ -332,7 +332,7 @@ body {
 }
 body {
   overflow-x: hidden;
-  color: #7f8c8d;
+  color: #252c41;
   line-height: 1.29;
 }
 @media (max-width: 767px) {
@@ -541,7 +541,7 @@ input[type="color"],
   font-family: "brandon-grotesque", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #252c41;
 }
 a:hover,
 button:hover,
@@ -782,7 +782,7 @@ header {
 header .brand {
   font-size: 25px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #252c41;
   font-family: "brandon-grotesque", Helvetica, sans-serif;
   font-weight: 800;
   letter-spacing: -1px;
@@ -853,7 +853,7 @@ section * {
   width: 200px;
   font-size: 25px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #252c41;
   font-weight: 800;
 }
 .header-8 .navbar .brand img:first-child {
@@ -880,7 +880,6 @@ section * {
   padding: 30px 0 22px;
   font-size: 20px;
   font-weight: normal;
-  color: #7f8c8d;
   font-weight: bold;
   font-family: "brandon-grotesque", Helvetica, sans-serif;
   color: #252c41;
@@ -888,15 +887,15 @@ section * {
 .header-8 .navbar .nav > li > a:hover,
 .header-8 .navbar .nav > li > a:focus,
 .header-8 .navbar .nav > li > a.active {
-  color: #7f8c8d;
+  color: #252c41;
 }
 .header-8 .navbar .nav > li.active > a {
-  color: #7f8c8d;
+  color: #252c41;
 }
 .header-8 .navbar .nav > li.active > a:hover,
 .header-8 .navbar .nav > li.active > a:focus,
 .header-8 .navbar .nav > li.active > a.active {
-  color: #7f8c8d;
+  color: #252c41;
 }
 .header-8 .navbar .navbar-header {
   position: relative;
@@ -953,4 +952,40 @@ section * {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
+}
+.content-26 {
+  position: relative;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  text-align: center;
+}
+.content-26 .lead {
+  font-size: 24px;
+  color: #252c41;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.content-26 h3 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #252c41;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0 0 36px;
+}
+@media (max-width: 767px) {
+  .content-26 .features {
+    margin-top: -52px;
+  }
+}
+.content-26 .features h6 {
+  text-transform: none;
+  margin-top: 20px;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.content-26 .features > * {
+  margin-top: 67px;
 }
