@@ -1,6 +1,6 @@
 Plataforma web oficial de la agencia jorgbot:
 =====
-![Vista](https://raw.githubusercontent.com/jorgbot/jorgbot/master/PSD/jorgbot.jpg?token=AIoelbEk9LN7pxEHJHDJ9v3pl88_HuPYks5X_YTBwA%3D%3D)
+![Vista](https://raw.githubusercontent.com/jorgbot/jorgbot/develop/PSD/jorgbot.jpg?token=AIoelZiKT2VKzwEpWJXviiFOQe-WiaUhks5X_b4_wA%3D%3D)
 
 
 -------------
